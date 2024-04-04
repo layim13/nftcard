@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body{
+  background-color: var(--mainBG);
+}
+
+hr{
+  color: var(--line);
+}
+
+.main_content{
+  background-color: var(--cardBG);
+  width: 450px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card_img img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title{
+  color: var(--Cyan);
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.card_info p{
+  color: var(--White);
+  font-size: 18px;
+  font-family: "Outfit";
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.card_info .crypto{
+  color: var(--Cyan);
+  font-weight: 600;
+}
+
+.rigth_info{
+  margin-left: 52%;
+  color: var(--Softblue);
+  font-weight: 300;
+}
+
+
+.profile img{
+  width: 60px;
+  height: 60px;
+  border: 1px solid var(--White);
+  border-radius: 100px;
+  margin-right: 1.5rem;
+}
+
+.profile p{
+  color: var(--White);
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  color: var(--White);
+  font-family: "Outfit";
+  font-weight: 300;
+}
+
+.bold{
+  color: var(--Cyan);
+  font-weight: 400;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.attribution{
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--White);
+  font-family: "Outfit";
+}
+
+.attribution a{
+  text-decoration: none;
+  color: var(--White);
+}
